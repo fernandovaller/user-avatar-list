@@ -1,0 +1,15 @@
+{
+    "name": "user-avatar-list",
+    "version": "1.0.0",
+    "description": "Obter os avatares de uma lista de emails",
+    "main": "src/index.js",
+    "scripts": {
+        "baixar": "node src/index.js"
+    },
+    "author": "fernandovaller@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "csv-parser": "^2.3.3",
+        "puppeteer": "^2.*"
+    }
+}
